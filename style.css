@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url(bg_002.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold ;
+    padding: 1rem;
+    color: white;
+}
+
+.listas {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(bg_003.png);
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    width: 5cm;
+    height: 8.6cm;
+    font-weight: bold ;
+    font-size: 1.5rem;
+}
+
+.cartaV {
+    background-image: url(bg_004.png);
+    color: snow;
+}
+
+.level-custo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: gold;
+}
+
+.custo {
+    color:lime;
+}
+
+.nome {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.hab {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 1rem;
+    font-size: 1rem;
+}
+
+.atq-def {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: whitesmoke;
+}
+
+.def {
+    color:darkred;
+}
+
+.defV {
+    color: red;
+}
+
+.carta:hover {
+    border-color: gold;
+    transform: scale(1.3);
+}
